@@ -1,0 +1,18 @@
+.cardGrid {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardMedia {
+  padding-top: 13rem;
+}
+
+.cardContent {
+  flex-grow: 1;
+}

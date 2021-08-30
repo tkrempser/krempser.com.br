@@ -1,0 +1,12 @@
+.presentation {
+  padding-bottom: 0.5rem;
+}
+
+.icons a svg {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.icons a svg {
+  color: rgba(0, 0, 0, 0.87);
+}
