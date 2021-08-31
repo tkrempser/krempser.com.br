@@ -30,8 +30,8 @@ const Home = () => {
           paragraph
           className={classes.presentation}
         >
-          My name is Thiago Krempser. I'm a Full Stack Developer from Brazil.
-          Check out some of my personal projects below.
+          My name is Thiago Krempser. I&apos;m a Full Stack Developer from
+          Brazil. Check out some of my personal projects below.
         </Typography>
       </Container>
 
