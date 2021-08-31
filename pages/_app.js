@@ -12,8 +12,9 @@ const MyApp = ({ Component, pageProps }) => {
       <CssBaseline />
 
       <Head>
-        <title>Thiago Krempser</title>
+        <meta charset="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <title>Thiago Krempser</title>
       </Head>
 
       <Container maxWidth="md" component="main" className={classes.main}>
