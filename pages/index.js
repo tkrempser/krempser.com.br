@@ -9,7 +9,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import ProjectList from "../components/ProjectList";
 import classes from "../styles/home.module.css";
 
-const Home = () => {
+const Index = () => {
   return (
     <Fragment>
       <Container maxWidth="sm">
@@ -60,4 +60,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Index;
