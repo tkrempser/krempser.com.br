@@ -6,7 +6,6 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 
-import Emoji from "../components/Emoji";
 import ProjectList from "../components/ProjectList";
 import classes from "../styles/home.module.css";
 
@@ -21,11 +20,17 @@ const Home = () => {
           color="textPrimary"
           gutterBottom
         >
-          Hello, World! <Emoji symbol="👋" label="waving-hand" />
+          Hello, World!
         </Typography>
 
-        <Typography variant="h5" align="center" color="textSecondary" paragraph>
-          My name is Thiago Krempser. I am a Full Stack Developer from Brazil.
+        <Typography
+          variant="h5"
+          align="center"
+          color="textSecondary"
+          paragraph
+          className={classes.presentation}
+        >
+          My name is Thiago Krempser. I'm a Full Stack Developer from Brazil.
           Check out some of my personal projects below.
         </Typography>
       </Container>
