@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.0875"
-     inkscape:cx="54.212202"
-     inkscape:cy="2410.3027"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="111.97554"
+     inkscape:cy="1992.2136"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -214,14 +214,17 @@ AAAAAAAAAAAAAAAAAAAAsBr/A85suThD5kmdAAAAAElFTkSuQmCC
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:ori1Uni;-inkscape-font-specification:'ori1Uni Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:6.335711;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 97.34474,35.334999 h 17.99976 v 24.81258 l 25.94771,-24.81258 h 20.89842 l -33.61514,32.18806 37.07482,35.784751 H 143.11554 L 115.3445,76.537539 V 103.30781 H 97.34474 Z" />
     <path
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:ori1Uni;-inkscape-font-specification:'ori1Uni Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:23.94599342;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 133.39062 -533.15039 L 133.39062 -477.07812 L 221.03516 -477.07812 L 221.03516 -276.24609 L 289.06641 -276.24609 L 289.06641 -477.07812 L 355.79492 -477.07812 L 355.79492 -276.24609 L 423.82617 -276.24609 L 423.82617 -377.42578 L 528.78711 -276.24609 L 613.95898 -276.24609 L 473.83203 -411.49609 L 600.88281 -533.15039 L 521.89648 -533.15039 L 423.82617 -439.37109 L 423.82617 -533.15039 L 376.5332 -533.15039 L 355.79492 -533.15039 L 133.39062 -533.15039 z "
-       transform="scale(0.26458333)"
-       id="path928" />
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:ori1Uni;-inkscape-font-specification:'ori1Uni Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:6.33571053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 50.260027,-205.20739 v 14.83579 h 23.18929 v 53.1368 h 17.99993 v -53.1368 H 109.1045 v 53.1368 h 17.99994 v -26.77046 l 27.77091,26.77046 h 22.53506 l -37.07526,-35.78489 33.61552,-32.1877 h -20.89846 l -25.94777,24.81244 v -24.81244 h -12.51294 -5.487 z"
+       id="path928"
+       inkscape:connector-curvature="0" />
     <path
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:ori1Uni;-inkscape-font-specification:'ori1Uni Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:23.94599342;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 85.583984 -901.9043 L 85.583984 -845.83203 L 173.23047 -845.83203 L 173.23047 -645 L 241.25977 -645 L 241.25977 -845.83203 L 328.72852 -845.83203 L 328.72852 -901.9043 L 85.583984 -901.9043 z M 347.99023 -901.9043 L 347.99023 -645 L 416.01953 -645 L 416.01953 -746.17969 L 520.98047 -645 L 606.15234 -645 L 466.02734 -780.25 L 593.07617 -901.9043 L 514.08984 -901.9043 L 416.01953 -808.125 L 416.01953 -901.9043 L 347.99023 -901.9043 z "
-       transform="scale(0.26458333)"
-       id="path955" />
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:ori1Uni;-inkscape-font-specification:'ori1Uni Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:6.33571053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -362.22402,167.62084 v 14.83579 h 23.1898 v 53.1368 h 17.99941 v -53.1368 h 23.14278 v -14.83579 z m 69.42831,0 v 67.97259 h 17.99942 v -26.77046 l 27.77092,26.77046 h 22.53506 l -37.07474,-35.78489 33.615,-32.1877 h -20.89847 l -25.94777,24.81244 v -24.81244 z"
+       id="path955"
+       inkscape:export-filename="/home/tkrempser/Music/tk.png"
+       inkscape:export-xdpi="139"
+       inkscape:export-ydpi="139"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
