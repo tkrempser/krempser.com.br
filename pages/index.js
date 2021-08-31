@@ -24,15 +24,9 @@ const Home = () => {
           Hello, World! <Emoji symbol="👋" label="waving-hand" />
         </Typography>
 
-        <Typography
-          variant="h5"
-          align="center"
-          color="textSecondary"
-          paragraph
-          className={classes.presentation}
-        >
+        <Typography variant="h5" align="center" color="textSecondary" paragraph>
           My name is Thiago Krempser. I am a Full Stack Developer from Brazil.
-          Below I share some of my projects.
+          Check out some of my personal projects below.
         </Typography>
       </Container>
 
