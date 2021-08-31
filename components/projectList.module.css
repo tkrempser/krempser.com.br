@@ -3,16 +3,18 @@
   padding-bottom: 3rem;
 }
 
-.card {
+div.card {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.cardMedia {
+div.cardMedia {
+  background-position: center top;
   padding-top: 13rem;
 }
 
-.cardContent {
+div.cardContent {
   flex-grow: 1;
+  padding-bottom: 0.5rem;
 }

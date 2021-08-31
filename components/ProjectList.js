@@ -7,7 +7,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 
-import classes from "../styles/projectList.module.css";
+import classes from "./projectList.module.css";
 
 const projects = [
   {
@@ -31,12 +31,14 @@ const ProjectList = (props) => (
               image={project.image}
               title={project.title}
             />
+
             <CardContent className={classes.cardContent}>
               <Typography gutterBottom variant="h5" component="h2">
                 {project.title}
               </Typography>
               <Typography>{project.description}</Typography>
             </CardContent>
+
             <CardActions>
               <Button
                 size="small"
@@ -47,6 +49,7 @@ const ProjectList = (props) => (
               >
                 Code
               </Button>
+
               <Button
                 size="small"
                 color="primary"
