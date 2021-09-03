@@ -1,10 +1,10 @@
 import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
 
-const Copyright = (props) => {
+const Footer = (props) => {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {"Copyright © "}
+      {"MIT © "}
       <Link color="inherit" href={props.siteUrl}>
         {props.siteTitle}
       </Link>{" "}
@@ -14,4 +14,4 @@ const Copyright = (props) => {
   );
 };
 
-export default Copyright;
+export default Footer;

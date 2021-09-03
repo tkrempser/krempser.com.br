@@ -3,7 +3,7 @@ import Container from "@material-ui/core/Container";
 
 import "../styles/globals.css";
 import classes from "../styles/app.module.css";
-import Copyright from "../components/Copyright";
+import Footer from "../components/Footer";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
@@ -15,10 +15,7 @@ const MyApp = ({ Component, pageProps }) => {
       </Container>
 
       <Container maxWidth="md" component="footer" className={classes.footer}>
-        <Copyright
-          siteTitle="Thiago Krempser"
-          siteUrl="https://krempser.com.br"
-        />
+        <Footer siteTitle="Thiago Krempser" siteUrl="https://krempser.com.br" />
       </Container>
     </div>
   );
