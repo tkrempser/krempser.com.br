@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: "images/"
-public_folder: "/images/"
+media_folder: "public/images/uploads/"
+public_folder: "/images/uploads/"
 collections:
   - name: "blog"
     label: "Blog"
