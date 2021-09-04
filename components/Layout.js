@@ -25,6 +25,7 @@ function Layout(props) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <title>Thiago Krempser</title>
+        <link rel="shortcut icon" href="/images/favicon.png" />
       </Head>
 
       <Container maxWidth="md" component="main" className={classes.main}>
