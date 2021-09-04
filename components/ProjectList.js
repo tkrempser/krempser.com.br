@@ -14,7 +14,7 @@ const projects = [
     id: "1",
     title: "React Meetups",
     description: "Project developed to study React concepts.",
-    image: "https://krempser.com.br/img/react-meetups.jpg",
+    image: "https://krempser.com.br/images/react-meetups.jpg",
     codeUrl: "https://github.com/tkrempser/react-meetups/",
     livePreviewUrl: "https://tkrempser.github.io/react-meetups/",
   },
