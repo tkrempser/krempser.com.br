@@ -20,7 +20,7 @@ const projects = [
   },
 ];
 
-const ProjectList = (props) => (
+const ProjectList = () => (
   <Container className={classes.cardGrid} maxWidth="md">
     <Grid container spacing={4}>
       {projects.map((project) => (
