@@ -5,7 +5,7 @@ import Container from "@material-ui/core/Container";
 import Head from "next/head";
 
 import classes from "./Layout.module.css";
-import Copyright from "./Copyright";
+import Footer from "./Footer";
 
 function Layout(props) {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,7 +22,7 @@ function Layout(props) {
       <CssBaseline />
 
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <title>Thiago Krempser</title>
       </Head>
@@ -32,10 +32,7 @@ function Layout(props) {
       </Container>
 
       <Container maxWidth="md" component="footer" className={classes.footer}>
-        <Copyright
-          siteTitle="Thiago Krempser"
-          siteUrl="https://krempser.com.br"
-        />
+        <Footer siteTitle="Thiago Krempser" siteUrl="https://krempser.com.br" />
       </Container>
     </div>
   );
