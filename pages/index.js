@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { MongoClient } from "mongodb";
 
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
@@ -9,7 +10,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import ProjectList from "../components/ProjectList";
 import classes from "../styles/home.module.css";
 
-const Index = () => {
+const Index = (props) => {
   return (
     <Fragment>
       <Container maxWidth="sm">
@@ -30,8 +31,7 @@ const Index = () => {
           paragraph
           className={classes.presentation}
         >
-          My name is <strong>Thiago Krempser</strong>. I&apos;m a Full Stack
-          Developer from Brazil. Check out some of my personal projects below.
+          {props.presentation}
         </Typography>
       </Container>
 
@@ -58,6 +58,22 @@ const Index = () => {
       <ProjectList />
     </Fragment>
   );
+};
+
+export const getStaticProps = async () => {
+  const client = await MongoClient.connect(
+    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}`
+  );
+
+  const db = client.db();
+  const presentation = await db.collection("presentation").findOne();
+  client.close();
+
+  return {
+    props: {
+      presentation: presentation.text,
+    },
+  };
 };
 
 export default Index;
