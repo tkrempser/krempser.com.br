@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Head from "next/head";
 import { MongoClient } from "mongodb";
 
 import Container from "@material-ui/core/Container";
@@ -13,6 +14,11 @@ import classes from "../styles/home.module.css";
 const Index = (props) => {
   return (
     <Fragment>
+      <Head>
+        <title>Thiago Krempser</title>
+        <meta name="description" content="Thiago Krempser" />
+      </Head>
+
       <Container maxWidth="sm">
         <Typography
           variant="h2"
