@@ -16,7 +16,7 @@ const projects = [
     description: "Project developed to study React concepts.",
     image: "https://krempser.com.br/images/react-meetups.jpg",
     codeUrl: "https://github.com/tkrempser/react-meetups/",
-    livePreviewUrl: "https://tkrempser.github.io/react-meetups/",
+    liveDemoUrl: "https://tkrempser.github.io/react-meetups/",
   },
 ];
 
@@ -53,11 +53,11 @@ const ProjectList = () => (
               <Button
                 size="small"
                 color="primary"
-                href={project.livePreviewUrl}
+                href={project.liveDemoUrl}
                 target="_blank"
                 rel="noreferrer"
               >
-                Live Preview
+                Live Demo
               </Button>
             </CardActions>
           </Card>
