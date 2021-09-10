@@ -1,3 +1,3 @@
 # krempser.com.br
 
-My personal site.
+My personal website.
