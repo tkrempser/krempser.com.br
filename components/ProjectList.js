@@ -21,7 +21,7 @@ const projects = [
   {
     id: "2",
     title: "novak",
-    description: "Automated bets based on mathematical analysis models.",
+    description: "Automated betting based on mathematical analysis models.",
     image: "https://krempser.com.br/images/novak.jpg",
     codeUrl: "",
     liveDemoUrl: "https://novakbot.com/",
