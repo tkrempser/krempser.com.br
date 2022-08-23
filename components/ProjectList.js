@@ -21,7 +21,7 @@ const projects = [
   {
     id: "2",
     title: "novak",
-    description: "Automated betting based on mathematical analysis models using Python and Django.",
+    description: "Automated betting based on mathematical analysis models using Python, Django and Celery.",
     image: "https://krempser.com.br/images/novak.jpg",
     codeUrl: "",
     liveDemoUrl: "https://novakbot.com/",
