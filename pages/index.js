@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import Head from "next/head";
-import { MongoClient } from "mongodb";
 
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
@@ -37,7 +36,8 @@ const Index = (props) => {
           paragraph
           className={classes.presentation}
         >
-          {props.presentation}
+          My name is <strong>Thiago Krempser</strong>. I&apos;m a Full Stack
+          Developer from Brazil. Check out some of my personal projects below.
         </Typography>
       </Container>
 
@@ -64,22 +64,6 @@ const Index = (props) => {
       <ProjectList />
     </Fragment>
   );
-};
-
-export const getStaticProps = async () => {
-  const client = await MongoClient.connect(
-    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}`
-  );
-
-  const db = client.db();
-  const presentation = await db.collection("presentation").findOne();
-  client.close();
-
-  return {
-    props: {
-      presentation: presentation.text,
-    },
-  };
 };
 
 export default Index;
