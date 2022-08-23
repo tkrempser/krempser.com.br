@@ -24,7 +24,6 @@ function Layout(props) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="shortcut icon" href="/images/favicon.png" />
       </Head>
 
       <Container maxWidth="md" component="main" className={classes.main}>
