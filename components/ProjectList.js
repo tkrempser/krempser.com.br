@@ -18,6 +18,14 @@ const projects = [
     codeUrl: "https://github.com/tkrempser/react-meetups/",
     liveDemoUrl: "https://tkrempser.github.io/react-meetups/",
   },
+  {
+    id: "2",
+    title: "Novak",
+    description: "Automated bets based on mathematical analysis models.",
+    image: "https://krempser.com.br/images/novak.jpg",
+    codeUrl: "",
+    liveDemoUrl: "https://novakbot.com/",
+  },
 ];
 
 const ProjectList = () => (
@@ -40,7 +48,7 @@ const ProjectList = () => (
             </CardContent>
 
             <CardActions>
-              <Button
+              {project.codeUrl && <Button
                 size="small"
                 color="primary"
                 href={project.codeUrl}
@@ -48,7 +56,7 @@ const ProjectList = () => (
                 rel="noreferrer"
               >
                 Code
-              </Button>
+              </Button>}
 
               <Button
                 size="small"
@@ -57,7 +65,7 @@ const ProjectList = () => (
                 target="_blank"
                 rel="noreferrer"
               >
-                Live Demo
+                Live App
               </Button>
             </CardActions>
           </Card>
