@@ -65,7 +65,7 @@ const ProjectList = () => (
                 target="_blank"
                 rel="noreferrer"
               >
-                Live App
+                Live Demo
               </Button>
             </CardActions>
           </Card>
