@@ -44,7 +44,7 @@ const Index = (props) => {
           paragraph
           className={classes.presentation}
         >
-          I&apos;m a Full Stack Developer from Brazil
+          I&apos;m a Full Stack Developer from Brazil.
         </Typography>
       </Container>
 
