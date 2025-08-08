@@ -7,7 +7,6 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 
-import ProjectList from "../components/ProjectList";
 import classes from "../styles/home.module.css";
 
 const Index = (props) => {
@@ -36,8 +35,16 @@ const Index = (props) => {
           paragraph
           className={classes.presentation}
         >
-          My name is <strong>Thiago Krempser</strong>. I&apos;m a Full Stack
-          Developer from Brazil. Check out some of my personal projects below.
+          My name is <strong>Thiago Krempser</strong>.
+        </Typography>
+        <Typography
+          variant="h5"
+          align="center"
+          color="textSecondary"
+          paragraph
+          className={classes.presentation}
+        >
+          I&apos;m a Full Stack Developer from Brazil
         </Typography>
       </Container>
 
@@ -60,8 +67,6 @@ const Index = (props) => {
           <EmailIcon />
         </a>
       </p>
-
-      <ProjectList />
     </Fragment>
   );
 };
