@@ -17,56 +17,58 @@ const Index = (props) => {
         <meta name="description" content="Thiago Krempser" />
       </Head>
 
-      <Container maxWidth="sm">
-        <Typography
-          variant="h2"
-          component="h1"
-          align="center"
-          color="textPrimary"
-          gutterBottom
-        >
-          Hello, World!
-        </Typography>
+      <div className={classes.mainContent}>
+        <Container maxWidth="sm">
+          <Typography
+            variant="h2"
+            component="h1"
+            align="center"
+            color="textPrimary"
+            gutterBottom
+          >
+            Hello, World!
+          </Typography>
 
-        <Typography
-          variant="h5"
-          align="center"
-          color="textSecondary"
-          paragraph
-          className={classes.presentation}
-        >
-          My name is <strong>Thiago Krempser</strong>.
-        </Typography>
-        <Typography
-          variant="h5"
-          align="center"
-          color="textSecondary"
-          paragraph
-          className={classes.presentation}
-        >
-          I&apos;m a Full Stack Developer from Brazil.
-        </Typography>
-      </Container>
+          <Typography
+            variant="h5"
+            align="center"
+            color="textSecondary"
+            paragraph
+            className={classes.presentation}
+          >
+            My name is <strong>Thiago Krempser</strong>.
+          </Typography>
+          <Typography
+            variant="h5"
+            align="center"
+            color="textSecondary"
+            paragraph
+            className={classes.presentation}
+          >
+            I&apos;m a Backend Developer from Brazil.
+          </Typography>
+        </Container>
 
-      <p className={classes.icons}>
-        <a
-          href="https://github.com/tkrempser/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <GitHubIcon />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/tkrempser/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <LinkedInIcon />
-        </a>
-        <a href="mailto:tkrempser@gmail.com" target="_blank" rel="noreferrer">
-          <EmailIcon />
-        </a>
-      </p>
+        <p className={classes.icons}>
+          <a
+            href="https://github.com/tkrempser/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tkrempser/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon />
+          </a>
+          <a href="mailto:tkrempser@gmail.com" target="_blank" rel="noreferrer">
+            <EmailIcon />
+          </a>
+        </p>
+      </div>
     </Fragment>
   );
 };
