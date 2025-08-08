@@ -48,7 +48,7 @@ const Index = (props) => {
         </Typography>
       </Container>
 
-      <p align="center" className={classes.icons}>
+      <p className={classes.icons}>
         <a
           href="https://github.com/tkrempser/"
           target="_blank"

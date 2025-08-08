@@ -2,6 +2,10 @@ p.presentation {
   margin-bottom: 0;
 }
 
+.icons {
+  text-align: center;
+}
+
 .icons a svg {
   padding-left: 1rem;
   padding-right: 1rem;
