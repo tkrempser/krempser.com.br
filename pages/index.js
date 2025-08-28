@@ -50,12 +50,8 @@ const Index = (props) => {
         </Container>
 
         <p className={classes.icons}>
-          <a
-            href="https://github.com/tkrempser/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <GitHubIcon />
+          <a href="mailto:tkrempser@gmail.com" target="_blank" rel="noreferrer">
+            <EmailIcon />
           </a>
           <a
             href="https://www.linkedin.com/in/tkrempser/"
@@ -64,8 +60,12 @@ const Index = (props) => {
           >
             <LinkedInIcon />
           </a>
-          <a href="mailto:tkrempser@gmail.com" target="_blank" rel="noreferrer">
-            <EmailIcon />
+          <a
+            href="https://github.com/tkrempser/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon />
           </a>
         </p>
       </div>
